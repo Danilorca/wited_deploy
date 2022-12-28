@@ -1,0 +1,105 @@
+// Here you can add other styles
+
+.root{
+  --cui-primary-rgb: #a434d8;
+}
+
+.sidebar {
+  --cui-sidebar-bg: #a434d8;
+}
+
+.button-bg-color{
+  background-color: #a434d8;
+}
+
+.app-bread-crumb-container{
+  width: 100%;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cbreadcrumb-item-container{
+  display: flex;
+  align-items: center;
+}
+
+.nav-home-container{
+  display: flex;
+  align-items: center;
+}
+
+.nav-active{
+  font-weight: 700;
+  text-decoration: underline;
+  color:#a434d8 !important;
+}
+
+.nav-link-icon{
+  background-color: #a434d811;
+  border-radius: 100%;
+  height: 40px;
+
+}
+.nav-icon{
+  color: #a434d8 ;
+
+}
+
+.btn-primary{
+  --cui-btn-bg:#a434d8;
+  --cui-btn-border-color: #a434d8;
+  --cui-btn-hover-color: white;
+  --cui-btn-hover-bg: #F797D7;
+  --cui-btn-hover-border-color: #F797D7;
+}
+
+
+.svg-color{
+  color: white;
+}
+
+
+.label-text{
+  font-size: 18px;
+}
+
+.toast{
+  --cui-toast-max-width: 170px;
+  --cui-toast-padding-x: 0.5rem;
+  --cui-toast-padding-y: 0.5rem;
+}
+
+.btn-close {
+  width: 0px;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form-check-input:checked {
+  background-color: var(--cui-form-check-input-checked-bg-color, #a434d8);
+  border-color: var(--cui-form-check-input-checked-border-color, #a434d8);
+}
+
+
+
+.add_Archivo, .btn_nav{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color:white;
+}
+
+
+p{
+  margin: 0;
+}
